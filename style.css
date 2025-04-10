@@ -47,6 +47,7 @@ section.imagem{
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.233);
     padding: 10px;
+    border-radius: 10px;
 }
 #imagem01{
     background: url(../site-cordel/imagens/background001.jpg) no-repeat fixed right ;

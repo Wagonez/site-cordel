@@ -1,0 +1,81 @@
+@charset "UTF-8";
+@font-face {
+    font-family: texto;
+    src: url(fonts/OleoScript-Regular.ttf);
+}
+@font-face {
+    font-family: ftitulo;
+    src: url(fonts/Chewy-Regular.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    min-height: 100vh;
+    background-color: rgb(248, 227, 195);
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header>h1{
+    font-family: 'ftitulo';
+    font-size: 8vh;
+    font-variant: small-caps;
+    padding-top: 8vh;
+}
+header>p{
+    padding-bottom: 8vh;
+    font-family: texto;
+}
+section{
+    line-height: 2em;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    padding-left: 30px;
+}
+section.normal{
+    background-color: white;
+}
+section.imagem{
+    background-color: rgb(63, 61, 61);
+    color: white;
+}
+.imagem>p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.233);
+    padding: 10px;
+}
+#imagem01{
+    background: url(../site-cordel/imagens/background001.jpg) no-repeat fixed right ;
+    background-size: cover;
+    box-shadow: inset 1px 1px 7px black;
+}
+#imagem02{
+    background: url(../site-cordel/imagens/background002.jpg) no-repeat fixed left center;
+    background-size: cover;
+    text-shadow: 1px 2px 4px black;
+    box-shadow: inset 1px 1px 7px black;
+}
+section>p{
+    font-family: 'texto',sans-serif;
+    font-size: 1.5em;
+}
+.normal>p{
+    margin-bottom: 5vh;
+}
+a{
+    color: rgb(245, 244, 186);
+}
+footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+footer>p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
